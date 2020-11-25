@@ -74,10 +74,24 @@ main section section p a {
     font-size: 14px;
 }
 
+main > section:nth-of-type(2) p {
+    text-align: center;
+}
+
+
 main > section:last-of-type {
     background-color: #73ab95;
 }
 
 main > section:last-of-type h2 {
+    font-family:'Cookie', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+}
 
+main > section:last-of-type p {
+    text-align: center;
+    color: #ffffff;
 }
