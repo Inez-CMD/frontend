@@ -1,0 +1,83 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* minder reken werk voor grootte van een box */ 
+  }
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #73ab95;
+}
+
+header section {
+    display: flex;
+}
+
+header section img{
+
+}
+
+main {
+    width: 100%;
+}
+
+main h2 {
+    font-family:'Cookie', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 500;
+}
+
+main section {
+    padding: 2em;
+}
+main section > img {
+    width: 100%;
+}
+main section section {
+    padding: 1em;
+}
+
+main section section h2, main section section p {
+    text-align: center;
+}
+
+main section section p {
+    margin: 2em 0 2em 0;
+}
+
+main section section h2 {
+    margin: 0;
+    padding: 0;
+}
+
+main section section a {
+    color: #f88f4e;
+    border: #f88f4e solid 2px;
+    border-radius: 3px;
+    padding: .75em;
+    text-decoration: none;
+    transition: all 300ms;
+}
+main section section a:hover {
+    color: #73ab95;
+    border: #73ab95 solid 2px;
+
+}
+
+main section section p a {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 14px;
+}
+
+main > section:last-of-type {
+    background-color: #73ab95;
+}
+
+main > section:last-of-type h2 {
+
+}
