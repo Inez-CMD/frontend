@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Hoe zorg je ervoor dat je website werkt op verschillende devices en landscape mode?
 
 
 
