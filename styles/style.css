@@ -8,16 +8,95 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-header {
-    background-color: #73ab95;
-}
-
-header section {
+header > div {
+    height: 3em;
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-header section img{
+header > div:nth-of-type(1) {
+    background-color: #73ab95;
+    width: 100vw;
 
+}
+
+header > div:nth-of-type(1) img {
+    height: 2em;
+}
+
+header > div:nth-of-type(2), header > div:nth-of-type(3) {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 94vw;
+}
+
+header > div:nth-of-type(2){
+    justify-content: space-between;
+}
+
+
+header > div:nth-of-type(2) img {
+    height: 2.5em;
+    width: 8em;
+}
+
+header > div:nth-of-type(2) span button {
+    background-color:#73ab95;
+    border-radius: 3px;
+    border-style: none;
+    height: 2.5em;
+    color: white;
+    margin-right: .5em;
+}
+
+header > div:nth-of-type(2) div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f88f4e;
+    height: 2em;
+    width: 2em;
+    border-radius: 3px;
+    padding-top: 2px; padding-bottom: 2px;
+}
+header > div:nth-of-type(2) div span {
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+header > div:nth-of-type(2) > span{
+    display:flex;
+    flex-direction: row;
+}
+
+header > div:nth-of-type(3) img {
+    height: 1em;
+}
+
+header > div:nth-of-type(3) span {
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #f88f4e;
+}
+
+header > div:nth-of-type(3) input {
+    height: 2em;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 400px) {
+    header > div:nth-of-type(1) {
+        justify-content: flex-end;
+    }
 }
 
 main {
@@ -75,7 +154,7 @@ main section section p a {
 }
 
 main > section:nth-of-type(2) p {
-    text-align: center;
+   /* text-align: center;*/
 }
 
 
@@ -95,3 +174,10 @@ main > section:last-of-type p {
     text-align: center;
     color: #ffffff;
 }
+
+main > section h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
