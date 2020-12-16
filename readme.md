@@ -31,6 +31,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 2 (week 5)
 
 Hoe zorg je ervoor dat je website werkt op verschillende devices en landscape mode?
+Ik heb na de voortgang veel aan mijn website gewerkt en allemaal forms gemaakt. Weer aan het vechten met CSS, het is erg lastig. Ik krijg de styling niet goed van mijn forms. Wat ook lastig is javascript, want ik snap daar weinig van. Geen moeite met html, maar het ziet er wel lelijk uit zonder.
 
 
 
@@ -38,7 +39,7 @@ Hoe zorg je ervoor dat je website werkt op verschillende devices en landscape mo
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+De css is nog erg lastig. Het is nooit mijn sterkte punt geweest.
 
 **Screenshot(s):**
 
@@ -56,13 +57,13 @@ Hoe zorg je ervoor dat je website werkt op verschillende devices en landscape mo
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Er is een hoop te doen komende  weken.
 
 
 
 ## Breakdownschets (week 1)
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/bC6tV0K" data-context="false" ><a href="//imgur.com/a/bC6tV0K"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
@@ -76,8 +77,7 @@ Hoe zorg je ervoor dat je website werkt op verschillende devices en landscape mo
 **Je opdracht:** -https://www.eefkooktzo.nl-
 
 **Screenshot(s) van de eerste pagina (small screen):**
-
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/bC6tV0K" data-context="false" ><a href="//imgur.com/a/bC6tV0K"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
