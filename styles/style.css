@@ -6,6 +6,15 @@ html, body {
 
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+
+.nav-ul{
+    display: none;
+}
+
+.nav-ul.show{
+    display: flex;
 }
 
 header > div {
@@ -99,6 +108,46 @@ header > div:nth-of-type(3) input {
     }
 }
 
+.topnav {
+    /*overflow: hidden;*/
+    background-color: #f88f4e;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: block;
+    z-index: 1;
+    background-color: #73ab95;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #73ab95;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #73ab95;
+    color: black;
+}
+
+.active {
+    background-color: pink;
+    color: white;
+}
+
+
 main {
     width: 100%;
 }
@@ -115,10 +164,13 @@ main section {
 }
 main section > img {
     width: 100%;
+    max-width: 400px;
 }
 main section section {
     padding: 1em;
+    max-width: 400px;
 }
+
 
 main section section h2, main section section p {
     text-align: center;
@@ -181,3 +233,55 @@ main > section h3 {
     font-size: 1.5em;
 }
 
+main > section:nth-of-type(4) {
+    
+}
+
+.responsive{
+    float: left;
+    padding: 06px;
+    width: 29.999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width:49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width:100%; 
+    }
+}
+
+
+.recept {
+    border-style: dotted;
+    margin: 10px;
+    color: grey;
+}
+
+main > section:nth-of-type(7) img {
+    border-radius: 50%;
+}
+
+main > section:nth-of-type(7) p {
+    
+}
+
+main section input:nth-of-type(6) {
+ 
+}
+
+section.gallery img{
+    height: auto;
+    width: 100%;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: .5em;
+}
