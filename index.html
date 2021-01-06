@@ -21,14 +21,23 @@
         <div>
             <img src="images/logo_eefkooktzo.png" alt="logo">
                 <span><button>Mijn Recepten</button>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div> 
+                    <div class="topnav">
+                        <a href="#home" class="active"> Logo</a>
+                            <div id="myLinks">
+                                <a href="#home">Home</a>
+                                <a href="#recepten">Recepten</a>
+                                <a href="#weekmenu">Weekmenu's</a>
+                                <a href="#foodtografie">Foodtografie</a>
+                                <a href="#samenwerken">Samenwerken</a>
+                                <a href="overmij">Over mij</a>
+                            </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div> 
                 </span>
         </div>
-        
+
         <div>
             <input type="text">
                 <span> <img src="images/search.jpg" alt="zoekfunctie"> </span>
@@ -38,7 +47,7 @@
     <main>
         <h2>Nieuwste blogs</h2>
         
-        <section>
+        <section class="responsive">
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/elementor/thumbs/Kip-piri-piri-uit-de-oven-oygw47y7p83nm38gxcondyhv70o63uzv5f5pusz06c.jpg" alt="Kip-piri-piri-uit-de-oven">
             <section> <!-- tweede section voor meer padding h2 en p-->
                 <h2>Kip Piri Piri a la Jamie Oliver</h2>
@@ -47,7 +56,7 @@
             </section>
         </section>
 
-        <section>
+        <section class="responsive">
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/elementor/thumbs/Appel-peer-crumble-ov5w7c1nd1c1q3odl0xg3k7y1hsfftrnewlfwbtfok.jpg" alt="Appel_Peer_crumble">
             <section> <!-- tweede section voor meer padding h2 en p-->
                 <h2>Appel peer crumble</h2>
@@ -56,7 +65,7 @@
             </section>
         </section>
 
-        <section>
+        <section class="responsive">
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/elementor/thumbs/Quiche-met-broccoli-en-zalm-oxi2x3v22cwu9bgdi3gtolll0zbndb4f2caft5lmsk.jpg" alt="Quiche-met-broccoli-en-zalm">
             <section> <!-- tweede section voor meer padding h2 en p-->
                 <h2>Quiche met zalm en broccoli</h2>
@@ -75,14 +84,17 @@
         <section>
             <h2>Schrijf je in voor de gratis nieuwsbrief</h2>
             <p>Wil je op de hoogte blijven van de nieuwste écht makkelijke recepten? Schrijf je dan snel in voor de wekelijkse nieuwsbrief.</p>
-            <form action=""></form>
+            <form action="inschrijven">
+                <input type="text">
+                <input type="email">
+                <button>Schrijf je nu in</button>
+            </form>
         </section>
 
     </main>
 
 
-
-
+<script src="./scripts/script.js" ></script>
 
 </body>
 </html>
