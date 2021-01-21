@@ -1,84 +1,48 @@
 # Procesverslag
 **Auteur:** -Inez Anema-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+ 1. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+ 2. https://www.youtube.com/watch?v=ydZc17rlR5E
+ 3. -...-
 
 
 
-## Eindgesprek (week 7/8)
+ ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
+ -dit ging goed & dit was lastig-
+ -dit ging goed:
+ Ik vond dat het schrijven van de HTML mij erg goed af ging. Ook de basics van CSS gingen goed. De plaatjes, teksten en de formulieren plaatsen ging goed.
 
 
 
-## Voortgang 3 (week 6)
+ & dit was lastig:
+ De rest was lastig. Toen ik moeilijkere CSS moest gaan schrijven en dingen moest aanroepen liep ik vast. Nu nog steeds zijn veel dingen niet zoals ik wil. Ook JS ging niet goed. Ik vind JS enorm lastig, en heb hulp gevraagd aan Maylinn, en meerdere tutorials opgezocht want ik kwam zelf echt niet uit de voeten ermee. Om mijn hamburger menu te laten werken (wat nog steeds niet gelukt is) heb ik twee verschillende avonden ongeveer 4 uur eraan gezeten, met een beetje hulp, maar het wou nog steeds niet lukken. Ook ging er wat mis in de CSS waardoor mijn site op bepaalde afmetingen extra wit ruimte heeft aan de rechter kant, en ik kan er maar niet achterkomen wat het veroorzaakt. Programeren is het onderdeel van CMD waar ik echt niks van bak, maar voel daardoor wel druk om alsnog goed te presteren. Proberen om met @media de afbeeldingen mee te laten bewegen op de tweede pagina wou ook niet werken.
 
--same as voortgang 1-
+ **Screenshot(s):**
+ home pagina
 
-
-
-## Voortgang 2 (week 5)
-
--same as voortgang 1-
-
+ -screenshot(s) van je eindresultaat-
+ <blockquote class="imgur-embed-pub" lang="en" data-id="a/G271WjF"  ><a href="//imgur.com/a/G271WjF">homepagina</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
-## Voortgang 1 (week 3)
+ tweede pagina/detail pagina
+ <blockquote class="imgur-embed-pub" lang="en" data-id="a/SGmkCR8"  ><a href="//imgur.com/a/SGmkCR8">detail pagina</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-### Stand van zaken
+ ## Voortgang 3 (week 6)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
+ -same as voortgang 1-
+ Hoe gebruik je @media zonder de hele site te breken?
+ Ik weet waar ik mee aan de slag moet, maar css en javascript is nog steeds een groot obstakel. Ik ben wel begonnen met de site responsive aan het maken.
 
 
 
-## Breakdownschets (week 1)
+ @@ -43,8 +52,6 @@ De css is nog erg lastig. Het is nooit mijn sterkte punt geweest.
 
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+ **Screenshot(s):**
 
+ -screenshot(s) van hoe ver je bent met korte uitleg-
 
+ ### Agenda voor meeting
 
-## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
-
-**Je startniveau:** -blauw-
-
-**Je focus:** -surface plane-
-
-**Je opdracht:** -https://www.eefkooktzo.nl-
-
-**Screenshot(s) van de eerste pagina (small screen):**
-
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
-
-**Screenshot(s) van de tweede pagina (small screen):**
-
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+ -samen met je groepje opstellen-
