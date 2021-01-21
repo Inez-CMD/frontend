@@ -8,39 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div>
-        <img src="images/facebook-transparent-logo-png-0.png" alt="facebook_logo">
-            <img src="images/twitter.png" alt="twitter logo">
-            <img src="images/pintrest.png" alt="pintrest">
-            <img src="images/youtube.png" alt="youtube">
+          <a href=""><img src="images/facebook-icon-white.jpg" alt="facebook_logo"></a>  
+           <a href=""><img src="images/instagram.svg" alt="instagram logo"></a> 
+           <a href=""> <img src="images/Pinterest-White-Icon.png" alt="pintrest"></a> 
+           <a href=""><img src="images/white-youtube-icon.jpg" alt="youtube"></a> 
         </div>
 
         <div>
-                <a href="index.html"><img src="images/logo_eefkooktzo.png" alt="logo"></a>
+            <img src="images/logo_eefkooktzo.png" alt="logo">
                 <span><button>Mijn Recepten</button>
-                <div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div> 
+                    <div class="topnav">
+                        <a href="#home" class="active" id="hamburger"> <img src="images/menu.jpg" alt=""></a>
+                            <div id="myLinks">
+                                <a href="#home">Home</a>
+                                <a href="#recepten">Recepten</a>
+                                <a href="#weekmenu">Weekmenu's</a>
+                                <a href="#foodtografie">Foodtografie</a>
+                                <a href="#samenwerken">Samenwerken</a>
+                                <a href="overmij">Over mij</a>
+                            </div>
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div> 
                 </span>
         </div>
-        
+<!-- De navigatie bestaat uit meerdere a elementen. Gestopt in een div. De div heeft een class om de navigatie met js en css werkend te maken -->
         <div>
             <input type="text">
-                <span> <img src="images/search.jpg" alt="zoekfunctie"> </span>
+                <button> <img src="images/search.jpg" alt="zoekfunctie"> </button>
         </div>
-    </header>
+    </header> 
+<!-- Zoekbalk  -->
 
-
-    <main>
+    <main class="detail">
         <section class="gallery">
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/elementor/thumbs/Kip-piri-piri-uit-de-oven-oygw47y7p83nm38gxcondyhv70o63uzv5f5pusz06c.jpg" title="Kip piri piri uit de oven" alt="Kip piri piri uit de oven">
             <h2>Kip piri piri uit de oven (a la Jamie Oliver)</h2>
         </section>
-
+<!-- Afbeelding met de titel van het recept -->
         <section class="gallery">
             <p>23 November 2020</p>
             <p>Kip piri piri uit de oven a la niemand minder dan Jamie Oliver. Een lekker, makkelijk, simpel recept voor een malse kip piri piri uit de oven met ongelooflijk lekkere aardappeltjes erbij uit zijn nieuwste kookboek: 7 x anders.
@@ -52,7 +61,7 @@
             <p>   Deze opzet maakt het direct een heel toegankelijk kookboek. Je vindt er waarschijnlijk veel van je favoriete ingrediënten in waar je al eerder mee hebt gekookt. Zo vind je bijvoorbeeld 7 verschillende recepten voor broccoli. Zoals broccoli in een quiche, risotto, salade, geroosterde broccoli, geserveerd met pasta en meer. Voor elk ingrediënt vind je dus 7 gerechten en die ingrediënten zijn bekend en toch divers, denk aan 7x zalm, 7x aubergine, 7x aardappel, maar ook hele kip waarvan ik het recept voor kip piri piri maakte. 
             </p>
         </section>
-
+<!-- Een section met alleen maar tekst -->
         <section>
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/2020/11/Kookboek-Jamie-Oliver-7-x-anders.jpg" title="Kookboek Jamie Oliver 7X anders" alt="Kookboek Jamie Oliver 7 x anders">
             <h3>Kip piri piri uit de oven</h3>
@@ -66,7 +75,7 @@
             <h3>Uit je comfort zone met Jamie</h3>
             <p>Een paar kleine puntjes van kritiek dus moet ik eerlijk zeggen, maar desondanks vind ik het een erg mooi en prettig kookboek. Van de foto’s krijg je trek en door de originele insteek ga je uit je comfortzone om eens wat anders te proberen met hetzelfde ingrediënt. Vrijwel alle recepten zijn toegankelijk, makkelijk om te maken en zowel geschikt voor de drukke doordeweekse dagen als wat uitgebreider in het weekend. Ook erg leuk als cadeau tijdens de feestdagen trouwens (tip!).</p>
         </section>
-
+<!-- Section met een foto en tekst over het kookboek van jamie oliver. -->
         <section class="recept">
             <img src="https://www.eefkooktzo.nl/wp-content/uploads/2020/11/Kip-piri-piri-uit-de-oven-500x500.jpg"  alt="Kip piri piri uit de oven" >
             <p>Printen</p>
@@ -114,7 +123,7 @@
             <h3> Voedingswaarden (per persoon/potie)</h3>
             <p>Calorieen 442kcal | Koolhydraten 39g | Eiwitten 28g | Vetten 19g | Verzadigd vet 6g</p>
         </section>
-       
+       <!-- Deze section gaat over het recept en de bereidingswijzen. In deze section zit een ul en een ol. De ul is voor de ingredienten en de ol is voor de stappen van het recept.  -->
 
         <section>
             <h3>Wil je dit recept opslaan?</h3>
@@ -132,7 +141,7 @@
         </section>
 
         <hr>
-
+<!-- Twee afbeeldingen en sections met tekst. Elke sections heeft een andere vormgeving, daarom zijn er drie verschillende. -->
         <section>
             <h3>Laat een reactie achter</h3>
             <p>Het e-mailsdres wordt niet gepubliceerd. Vereiste velden zijn gemarkeerd met *</p>
@@ -140,40 +149,42 @@
             
             <form action="typhier">
                 <label for="Typ hier"></label>
-                <input type="text">
+                <textarea placeholder="Typ hier..." name="typ hier review" id="hier" cols="30" rows="10"></textarea>
                 <label for="Naam"></label>
-                <input type="text">
+                <input placeholder="Naam" type="naam"> 
                 <label for="E-mail"></label>
-                <input type="email">
+                <input placeholder="Email" type="email"> 
                 <label for="Website"></label>
-                <input type="url">
-                <input type="checkboxbewaren">
-                <label for="checkbox"> Mijn naam, e-mail en site bewaren in deze browser voor de volgende keer wanneer ik een reactie plaats.</label>
-                <input type="checkboxaboneer">
-                <label for="checkboxaboneer"> Houd mij op de hoogte van de nieuwe reacties. Of abboneer jezelf op deze discussie zonder te reageren.</label>
-                <input type="submit" value="Plaats reactie >>">
+                <input placeholder="Website" type="url"> 
+
+                
+                <label for="checkbox"> <input type="radio">Mijn naam, e-mail en site bewaren in deze browser voor de volgende keer wanneer ik een reactie plaats.</label> 
+                <label for="checkboxaboneer">  <input type="radio">Houd mij op de hoogte van de nieuwe reacties. Of abboneer jezelf op deze discussie zonder te reageren.</label>
+                <input type="submit" value="PLAATS REACTIE >>">
             </form>
             
         </section>
-
-
-        <section>
+<!-- Deze section is voor het invullen van een review en het versturen. Het begint met 5 radio inputs waarmee je een rating kan aangeven. -->
+<!-- In de form gebruik ik een textarea om veel in te kunnen schrijven. Elk input heeft een placeholder zodat er wat in staat. Het label laat zien waar de input voor is. -->
+<!-- De laatste input is een submit type, waarmee de gebruiker de review kan inleveren -->
+        <section class="schrijf">
             <h2>Schrijf je in voor de gratis nieuwsbrief</h2>
             <p>Wil je op de hoogte blijven van de nieuwste écht makkelijke recepten? Schrijf je dan snel in voor de wekelijkse nieuwsbrief.</p>
             <form action="inschrijven">
-                <input type="text">
-                <input type="email">
-                <button>Schrijf je nu in</button>
+                <input placeholder ="Je voornaam" type="text"> 
+                <input placeholder="Je email" type="email">
+                <input value="SCHRIJF JE NU IN" type="submit">
             </form>
         </section>
     </main>
-
+<!-- In deze section is er een formulier waar de gebruiker zich kan inschrijven voor de nieuwsbrief. In de form staan 3 inputs, daarin kan de gebruiker kan typen. Door de placeholder staat de tekst in de input -->
 
     <footer>
         <p>@Eef Kookt Zo 2020</p> <p>Privacyverklaring</p> <p>Disclaimer</p>
         <p>Update de privacy-instellingen</p>
     </footer>
-
+<!-- dit is de footer met wat informatie  -->
     <script src="./scripts/script.js" ></script>
+    <!-- dit is het script voor js -->
 </body>
 </html>

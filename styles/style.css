@@ -7,12 +7,12 @@ html, body {
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-}
-
+} 
+/* font family zet de basis voor het letterrtpen, de margin zorgt voor geen extra ruimte. */
 .nav-ul{
     display: none;
 }
-
+/* dit zorgt ervoor dat er de navgatie verstopt is */
 .nav-ul.show{
     display: flex;
 }
@@ -23,17 +23,23 @@ header > div {
     flex-direction: row;
     align-items: center;
 }
-
+/* dit is de styling voor de header en de navigatie balk */
 header > div:nth-of-type(1) {
     background-color: #73ab95;
     width: 100vw;
 
 }
 
+header > div:nth-of-type(1) a {
+    margin-left: 10px;
+}
+/* meer ruimte tussen de afbeeldingen van de social media */
+
 header > div:nth-of-type(1) img {
     height: 2em;
-}
 
+}
+/* hoe groot de afbeeldingen zijn */
 header > div:nth-of-type(2), header > div:nth-of-type(3) {
     padding-left: 3vw;
     padding-right: 3vw;
@@ -47,7 +53,6 @@ header > div:nth-of-type(2){
 
 header > div:nth-of-type(2) img {
     height: 2.5em;
-    width: 8em;
 }
 
 header > div:nth-of-type(2) span button {
@@ -58,6 +63,7 @@ header > div:nth-of-type(2) span button {
     color: white;
     margin-right: .5em;
 }
+/* de styling voor de mijn recepten knop */
 
 header > div:nth-of-type(2) div {
     display: flex;
@@ -69,6 +75,7 @@ header > div:nth-of-type(2) div {
     border-radius: 3px;
     padding-top: 2px; padding-bottom: 2px;
 }
+/* dit is de styling voor het hamburger menu. display flex direction colum zorgt ervoor dat alles onder elkaar staat. de hoogte en padding zorgt voor de ruimte om de letters heen */
 header > div:nth-of-type(2) div span {
     width: 80%;
     height: 3px;
@@ -82,19 +89,27 @@ header > div:nth-of-type(2) > span{
 }
 
 header > div:nth-of-type(3) img {
-    height: 1em;
-}
-
-header > div:nth-of-type(3) span {
     height: 2em;
-    width: 2em;
+}
+/* dit zorgt ervoor dat de zoekbalk en de image naast elkaar staan.  */
+
+header > div:nth-of-type(3) button {
+    height: 2.5em;
+    width: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     background-color: #f88f4e;
+    border: none;
 }
-
+/* dit is de styling voor de zoek knop */
+header > div:nth-of-type(3) button:active {
+    height: 2em;
+    width: 2em;
+    transition: 150ms;
+}
+/* dit is voor de animatie wanneer je op de zoek knop drukt. */
 header > div:nth-of-type(3) input {
     height: 2em;
     width: 100%;
@@ -108,8 +123,6 @@ header > div:nth-of-type(3) input {
 }
 
 .topnav {
-    /*overflow: hidden;*/
-    /*background-color: #f88f4e;*/
     position: relative;
 }
 
@@ -119,14 +132,17 @@ header > div:nth-of-type(3) input {
     background-color: #f88f4e;
 }
 
-.topnav a {
+#myLinks a {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
     background-color: white;
+    border-radius: 3px;
 }
+/* dit is de styling voor de elementen in het hamburger menu. padding zorgt voor ruimte, font size is voor de grootte,  */
+
 
 .topnav a.icon {
     background: black;
@@ -135,36 +151,47 @@ header > div:nth-of-type(3) input {
     right: 0;
     top: 0;
 }
-
+/* dit gebruikte is als icoon voordat ik een afbeelding had voor de hamburger menu */
 .topnav > a{
     background-color: #f88f4e;
     color: white;
 }
 
+.topnav a > img {
+    height: 50px;
+    width: 50px;
+}
+
 .active {
-    background-color:#f88f4e;
-    color: #f88f4e;
+    background-color:#73ab95;
+    color: #73ab95;
 }
 
 
 main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-
+/* dit stelt de styling voor de main vast. displayflex en direction colum zorgen ervoor dat alles onder elkaar komt en niet horizoontaal gaat lopen, zoals eerst gebeurde... */
 main h2 {
     font-family:'Cookie', sans-serif;
     font-size: 3em;
     text-align: center;
     font-weight: 500;
 }
-
+/* styling voor de h2. font weight vergroot de dikte en textalign center zorgt ervoor dat alles in het midden staat. */
 main section {
-    padding: 2em;
+    display: flex;
+    flex-direction: column;
 }
 main section > img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    margin: auto;
+    align-self: center;
 }
+/* styling voor de afbeeldingen. ze staan in het midden. en zijn 80% van de container. */
 main section section {
     padding: 1em;
     max-width: 400px;
@@ -192,27 +219,64 @@ main section section a {
     text-decoration: none;
     transition: all 300ms;
 }
+/* de lees meer knop styling. Border radius zorgt ervoor dat de knop mooi rond is bij de hoekjes. text decoration verwijdert de streep van de link. transition zorgt voor een smooth beweging wanneer de knop wordt ingedrukt */
 main section section a:hover {
     color: #73ab95;
     border: #73ab95 solid 2px;
 
 }
-
+/* wanneer je boven de leesmeer knop hangt verandert te kleur */
 main section section p a {
     text-transform: uppercase;
     margin: 0;
     font-size: 14px;
 }
+/* texttransform zorgt ervoor dat de tekst in hoofdletters staat. margin zorgt voor geen extra ruimte. front size past de grootte van de tekst aan. */
 
-main > section:nth-of-type(2) p {
-   /* text-align: center;*/
-}
 
 
 main > section:last-of-type {
     background-color: #73ab95;
+    
 }
 
+main > section:last-of-type p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+/* de margin zorgt voor ruimte rondom de p. font size past het lettertype aan */
+
+main > section:last-of-type form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/* dit zorgt ervoor dat alles in de form onder elkaar staat */
+main > section:last-of-type input{
+    width: 70vw;
+    padding: 20px;
+    align-self: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+/* dit is de stlying voor de input. vw is voor de breedte van het scherm. padding zorgt voor ruimte in de input. margin zorgt voor ruimte aan de onderkant. font size is voor het lettertype */
+main > section:last-of-type input:active {
+    border-color: #73ab95;
+}
+
+main > section:last-of-type input:last-of-type{
+    background-color: #f88f4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+/* styling voor de submit knop. */
 main > section:last-of-type h2 {
     font-family:'Cookie', sans-serif;
     font-size: 3em;
@@ -233,14 +297,17 @@ main > section h3 {
 }
 
 main > section:nth-of-type(4) {
-    
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .responsive{
     float: left;
-    padding: 06px;
+    /* padding: 06px; */
     width: 29.999%;
 }
+/* dit is code die ik gebruikte om de website responsive te maken voordat ik naar de surface plane ging. de padding 06px was de oorzaak van mijn extra ruimte >:( */
 
 @media only screen and (max-width: 700px){
     .responsive {
@@ -254,33 +321,68 @@ main > section:nth-of-type(4) {
         width:100%; 
     }
 }
-
-
+/* deze code hoort ook nog bij responsive */
+.detail section{
+    margin: 10px;
+}
+/* extra ruimte aan de zijkant */
 .recept {
     border-style: dotted;
     margin: 10px;
     color: grey;
 }
-
+/* heirdoor staat er een border rond het recept en staat het niet precies tegen de rand aan. */
 main > section:nth-of-type(7) img {
     border-radius: 50%;
 }
 
-main > section:nth-of-type(7) p {
-    
-}
 
-main section input:nth-of-type(6) {
- 
-}
 
+.detail .schrijf {
+    background-color: #73ab95;
+    margin: 0px;
+    padding-top: 10px;
+}
+/* code voor de detail pagina formulieren */
+.detail textarea {
+    margin-bottom: 20px;
+}
+/* meer ruimte tussen de text area en alles daaronder */
+.detail form {
+    display: flex;
+    flex-direction: column;
+}
+/* hierdoor staat alles onder elkaar */
+.detail input {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+/* meer ruimte in de inputs */
+.detail input[type=radio] {
+    margin: 0px;
+}
+/* hierdoor krijgt alleen de input met radio een margin van 0*/
+
+.detail form input:nth-of-type(4) {
+    margin-top: 20px;
+    background-color: #73ab95;
+    color: white;
+    padding: 10px ;
+    border: none;
+    width: 200px;
+}
+/* styling voor de form waarmee je je review kan inleveren. background color zorgt voor de kleur van de knop, color is de kleur van de tekst. padding zorgt voor meer ruimte in de input. margin zorgt voor meer ruimte boven. width is de breedte van de input. */
 section.gallery img{
     height: auto;
     width: 100%;
 }
 
+.detail label:nth-of-type(5){
+    margin-bottom: 20px;
+}
 
 footer p {
     text-align: center;
     font-size: .5em;
 }
+/* styling van de footer. */
