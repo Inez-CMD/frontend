@@ -5,6 +5,7 @@
 
 console.log("hallo..javascript?")
 
+
 function myFunction() {
     var x = document.getElementById("myLinks");
     console.log("ik werk");
@@ -18,3 +19,4 @@ function myFunction() {
     console.log("ik werk ook");
 }
 
+document.getElementById("hamburger").addEventListener("click", myFunction)

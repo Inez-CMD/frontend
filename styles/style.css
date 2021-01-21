@@ -66,7 +66,6 @@ header > div:nth-of-type(2) div {
     align-items: center;
     background-color: #f88f4e;
     height: 2em;
-    width: 2em;
     border-radius: 3px;
     padding-top: 2px; padding-bottom: 2px;
 }
@@ -110,23 +109,23 @@ header > div:nth-of-type(3) input {
 
 .topnav {
     /*overflow: hidden;*/
-    background-color: #f88f4e;
+    /*background-color: #f88f4e;*/
     position: relative;
 }
 
 .topnav #myLinks {
-    display: block;
+    display: none;
     z-index: 1;
-    background-color: #73ab95;
+    background-color: #f88f4e;
 }
 
 .topnav a {
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-    background-color: #73ab95;
+    background-color: white;
 }
 
 .topnav a.icon {
@@ -137,14 +136,14 @@ header > div:nth-of-type(3) input {
     top: 0;
 }
 
-.topnav a:hover {
-    background-color: #73ab95;
-    color: black;
+.topnav > a{
+    background-color: #f88f4e;
+    color: white;
 }
 
 .active {
-    background-color: pink;
-    color: white;
+    background-color:#f88f4e;
+    color: #f88f4e;
 }
 
 
@@ -163,8 +162,8 @@ main section {
     padding: 2em;
 }
 main section > img {
-    width: 100%;
-    max-width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 main section section {
     padding: 1em;
